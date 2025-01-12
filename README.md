@@ -1,24 +1,41 @@
 # Weather Data Analysis Project
+**Author:** Marcella Morgan
+**Image Credit:** DALL·E 
+![Image of a Windmill](images/code_windmill.png)
 
 ## Project Overview
-This project analyzes historical wind speed data from Met Éireann weather stations in Ireland. The primary goal is to explore trends and potential applications for wind energy projects, such as wind farms. 
+
+This project analyses historical wind speed [data](https://www.met.ie/climate/available-data/historical-data) from Met Éireann weather stations in Ireland. The primary goal is to explore trends and potential applications for wind energy projects, such as wind farms. 
 
 This repository contains:
-- Jupyter Notebook(s) with data analysis and visualizations.
+- Jupyter Notebook(s) with data analysis and visualisations.
 - Weather data files sourced from Met Éireann.
 - Documentation detailing the project's methodology and results.
 
-## Prerequisites
-To run the code, ensure the following libraries are installed:
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `jupyter`
 
-Use the following command to install them:
+## Libraries Used
+
+The following Python libraries were used to support the analysis, visualization, and modeling in this project:
+
+- **pandas**: For cleaning, manipulating, and analyzing the dataset.
+- **numpy**: For numerical calculations, particularly with arrays and mathematical operations.
+- **matplotlib**: For creating basic plots and visualizations.
+- **seaborn**: For more advanced and aesthetically pleasing visualizations.
+- **jupyter**: To run the analysis in a notebook environment, making it easier to combine code, results, and explanations.
+- **glob**: For automating the retrieval of multiple files from directories.
+- **sklearn**: Used for predictive modeling and regression analysis.
+
+
+A `requirements.txt` file is included in the root of the repository. It lists all the Python dependencies needed to run this project.
+
+To install the dependencies, follow these steps:
+
+1. Ensure you have Python and pip installed on your system.
+2. Navigate to the project directory in your terminal.
+3. Run the following command to install all the required packages:
+
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter
+pip install -r requirements.txt
 ```
 
 ## Files and Structure
@@ -29,15 +46,19 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 ## References
 
-There were a lot of weather stations but I wanted the ones with windspeed so found a list of the bigger weather stations 
-and downloaded 19 of the bigger weather station data. Was a bit clumsy having to download and unzip all the files individually - wonder if there is a better workflow for this.
+Links to all references are embedded in the Jupyter notebook text.
 
-List of weather stations with windspeed: 
-https://www.met.ie/climate/weather-observing-stations
+The following resources were also used in this project:
 
-The following resources were used in this project:
 - [Met Éireann Historical Weather Data](https://www.met.ie/climate/available-data/historical-data)
-- Additional resources will be documented in the notebook where applicable.
+- [Wind Farms in Ireland](https://windenergyireland.com/about-wind/interactive-map)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [NumPy Documentation](https://numpy.org/doc/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [Scikit-Learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- [Jupyter Documentation](https://jupyter.org/documentation)
+- [Glob Module (Python Docs)](https://docs.python.org/3/library/glob.html)
 
-## Notes
-This is a work-in-progress project with a goal of completing a passable version as soon as possible, followed by iterative improvements over time.
+
+
