@@ -1,6 +1,7 @@
 # Weather Data Analysis Project
 **Author:** Marcella Morgan
 **Image Credit:** DALL·E 
+
 ![Image of a Windmill](images/code_windmill.png)
 
 ## Project Overview
@@ -8,7 +9,7 @@
 This project analyses historical wind speed [data](https://www.met.ie/climate/available-data/historical-data) from Met Éireann weather stations in Ireland. The primary goal is to explore trends and potential applications for wind energy projects, such as wind farms. 
 
 This repository contains:
-- Jupyter Notebook(s) with data analysis and visualisations.
+- Jupyter Notebook with data analysis and visualisations.
 - Weather data files sourced from Met Éireann.
 - Documentation detailing the project's methodology and results.
 
@@ -41,7 +42,9 @@ pip install -r requirements.txt
 ## Files and Structure
 - `wind_farm_analysis.ipynb`: Main Jupyter Notebook containing the analysis and visualizations.
 - `data/`: Directory containing weather data files.
+- `images/`: Directory containing images
 - `README.md`: This file, describing the project structure and usage.
+- `requirements.txt`
 
 
 ## References
